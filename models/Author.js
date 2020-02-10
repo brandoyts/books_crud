@@ -8,8 +8,8 @@ const Author = db.define("author", {
         autoIncrement: true,
         primaryKey: true
     },
-    firstName: Sequelize.STRING(50),
-    lastName: Sequelize.STRING(50)
+    firstName: Sequelize.STRING(100),
+    lastName: Sequelize.STRING(100)
 });
 
 module.exports = Author;
